@@ -18,7 +18,7 @@ function Rcountries(){
   },[])
   return(
     <div>
-      <p>Total countries : {countries.length} </p>
+      <h3>Total countries : {countries.length} </h3>
       {
         countries.map(country => <Country name ={country.name.common}></Country>)
       }
